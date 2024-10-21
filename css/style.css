@@ -78,11 +78,26 @@ form label[for=mastercard] {
 /*** BEGIN HERE ***/
 /*Make sure to comment out line 32 above*/
 
-
-form ol li {
-	border-radius: 0;
+label{
+	display: block;
+	width: 85%;
 }
 
+input[type="radio"]{
+	width: auto;
+	display: inline;
+}
+
+form ol li:first-child{
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+form ol li:last-child{
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	padding-bottom: 10px;
+}
 
 
 
